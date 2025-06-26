@@ -20,10 +20,10 @@ import('events').then(events => {
 
 app.use('/code', code);
 app.use('/pair', async (req, res) => {
-    res.sendFile(path.join(__dirname, 'pair.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 app.use('/', async (req, res) => {
-    res.sendFile(path.join(__dirname, 'pair.html'));
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.use(bodyParser.json());
