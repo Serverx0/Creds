@@ -76,9 +76,8 @@ router.get('/', async (req, res) => {
 
                     // Send warning message
                     await Serverx.sendMessage(userJid, { 
-                        text: `⚠️Do not share this file with anybody⚠️\n 
- Thanks for using Serverx Cred.json Generator Service 
-©2025 Serverx Inc All Rights Reserved ❤️\n\n` 
+                        text: `Here Is Your WhatsApp Cred.json ❤️\n 
+©2025 Serverx Inc All Rights Reserved.\n\n` 
                     });
 
                     // Clean up session after use
